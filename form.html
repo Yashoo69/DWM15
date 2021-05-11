@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./timbre.js" defer></script>
+    <link rel="stylesheet" href="./timbre.css">
+    <title>Nous-contacter</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="menu"><a href="index.html">Acceuil</a></li>
+                <li class="menu"><a href="product.html">Les Produits</a></li>
+                <li class="menu"><a href="form.html">Nous-contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1> Nous-contacter </h1>
+        <div id="form">
+            <form action="formSend.html">
+
+                <label for="surname">Nom : </label>
+                <input type="text" id="surname" name="surname"><br><br>
+
+                <label for="firstname">Prénom : </label>
+                <input type="text" id="firstname" name="firstname"><br><br>
+
+                <label for="Age">Age: </label>
+                <input type="number" min="0" max="100" name="Age"><br><br>
+
+                <label for="birthday">Date de naissance: </label>
+                <input type="date" age="birthday"><br><br>
+
+                <label for="user_email">Email: </label>
+                <input type="email" name="user_email"><br><br>
+
+                <label for="story">Vos commentaires: </label>
+                <textarea name="textarea" rows="10" cols="50"> Vous pouvez écrire ici.</textarea><br><br>
+
+                <p>Gender </p><br>
+                <input type="radio" name="sexe" value="Homme"> Homme<br><br>
+                <input type="radio" name="sexe" value="femme"> Femme<br><br>
+                <input type="submit" value="Envoyer !">
+
+            </form>
+        </div>
+    </main>
+</body>
+<footer>© Thomas V.</footer>
+</html>
